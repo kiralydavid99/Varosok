@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:tools="http://schemas.android.com/tools"
@@ -16,18 +14,13 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Új felvétele"
-            android:id="@+id/btn_felvetel"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Keresés"
-            android:id="@+id/btn_keres"/>
-        <EditText
+            android:text="Vissza"
+            android:id="@+id/btn_vissza"/>
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="ország"
-            android:id="@+id/edit"/>
+            />
 
 
 
